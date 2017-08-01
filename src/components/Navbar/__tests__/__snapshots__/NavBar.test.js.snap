@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component renders nav correctly renders nav elements correctly 1`] = `
+<div>
+  <nav
+    className="navbar "
+  >
+    <div
+      className="navbar-menu"
+      id="navMenuExample"
+    >
+      <div
+        className="navbar-start"
+      >
+        <a
+          className="navbar-item"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        />
+        <a
+          className={undefined}
+          href="/about"
+          onClick={[Function]}
+          style={undefined}
+        />
+      </div>
+    </div>
+  </nav>
+</div>
+`;

@@ -1,0 +1,11 @@
+{
+    "moduleFileExtensions": [
+        "js",
+        "jsx"
+    ],
+    "moduleNameMapper": {
+    	"\\.(css|less)$": "identity-obj-proxy",
+        "Button": "<rootDir>/src/components/Button/Button.js",
+        "NavBar": "<rootDir>/src/components/Navbar/NavBar.js"
+    }
+}
