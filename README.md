@@ -75,7 +75,7 @@ Webpack Config
 
   `npm install sass-loader node-sass webpack --save-dev`
    
-   Add the following to the test :/\.css$/, section of webpack.config.js
+   Add the following to the  test: /\.css$/ section of webpack.config.js
    ```
   test: /\.sass$/, 
   use: ExtractTextPlugin.extract({
@@ -86,13 +86,38 @@ Webpack Config
 - Production Plugins
 
   I have added couple of plugins for production which could be customized according to your preferences.
-  Choose your preferred   plugins [here](https://webpack.github.io/docs/plugins.html)
+  Choose your preferred plugins [here](https://webpack.github.io/docs/plugins.html)
   
   You can simply push the plugins in your dev/prod process through the following condition in the webpack config file.
   
   `if (process.env.NODE_ENV === 'production') {
     config.plugins.push(new xyz plugin )
+    } else {
+    config.plugins.push(new xyz plugin )
     }`
+    
+Eslint Config
+--------------
+- Should you choose to not use Eslint at all,you can unistall it through npm or ignore it for a specific file by using `/* eslint-disable */` at the top of the file
+
+- By default,I have commented out the standard eslint config for react which can be enabled by uncommenting out the code block in the .eslintrc file.
+```
+ /*"extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],*/
+```
+
+Contributing
+--------------
+- Have a feature request you wish to see in the config file ? PR's welcomed
+- Don't hesitate to log a issue if you come across any.
+
+
+Licence
+--------------
+react-webpack-3-boilerplate is available under MIT.
+
     
  
  
