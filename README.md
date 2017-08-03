@@ -55,5 +55,12 @@ Configuration
    Navigate to http://localhost:8080/ to see the app running live
    
    (*port settings can be changed in webpack.config.js*)
+   
+ - To run the Jest testing utilities 
+ 
+   `npm test`
+   
+(*creates a new folder __snapshots__ in the respective test folder.learn more about [Snapshot Testing](https://facebook.github.io/jest/docs/snapshot-testing.html)*)
+   
     
 
