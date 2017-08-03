@@ -77,15 +77,12 @@ Webpack Config
    
    Add the following to the test :/\.css$/, section of webpack.config.js
    ```
-   { 
   test: /\.sass$/, 
   use: ExtractTextPlugin.extract({
     fallback: "style-loader",
     loader: "css-loader","sass-loader",
-  })
-}
-```
-
+  })```
+ 
 - Production Plugins
 
   I have added couple of plugins for production which could be customized according to your preferences.
