@@ -18,3 +18,42 @@ Stack Contains
 :heavy_check_mark: [ES6](http://es6-features.org/#Constants)
 
 :heavy_check_mark: [Bulma v0.4.4](http://bulma.io/)c(*optional pure css based library*)
+
+Features
+--------------
+:radio_button: Simple config with easy customization options
+
+:radio_button: Optimized Production ready build
+
+:radio_button: Component testing with Jest + SnapShot  creation
+
+:radio_button: Hot Module Reloading
+
+:radio_button: CSS loader support (*SASS addition with 2 lines of code*)
+
+:radio_button: Eslint standard config 
+
+:radio_button: A sample app using React Routerv4
+
+
+Requirements
+--------------
+   Node 6+
+   
+Configuration
+--------------
+ - Install
+ 
+   Clone the repository and run
+   
+   `npm install`
+   
+ - Star the development server
+ 
+   `npm run dev`
+   
+   Navigate to http://localhost:8080/ to see the app running live
+   
+   (*port settings can be changed in webpack.config.js*)
+    
+
