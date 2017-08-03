@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import 'bulma/css/bulma.css'
 
 export const Button = (props) => {
-	var throwAlert = () => alert("some hey")
+	var throwAlert = () => alert("Copy and paste is a design error")
     return (
         <div>
             <div className="columns">

@@ -5,7 +5,7 @@ import 'bulma/css/bulma.css'
 import './navBar.css'
 export const NavBar = (props) => {
     return (
-     <div>
+     <div className="column is-half is-offset-one-quarter">
          <nav className="navbar ">
              <div id="navMenuExample" className="navbar-menu">
                  <div className="navbar-start">
