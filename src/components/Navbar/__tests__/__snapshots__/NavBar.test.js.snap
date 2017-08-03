@@ -19,7 +19,7 @@ exports[`Navbar Component renders nav correctly renders nav elements correctly 1
           style={Object {}}
         />
         <a
-          className={undefined}
+          className="navbar-item topPadding"
           href="/about"
           onClick={[Function]}
           style={undefined}
