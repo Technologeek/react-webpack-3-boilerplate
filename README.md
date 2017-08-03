@@ -60,7 +60,12 @@ Configuration
  
    `npm test`
    
-(*creates a new folder __snapshots__ in the respective test folder.learn more about [Snapshot Testing](https://facebook.github.io/jest/docs/snapshot-testing.html)*)
+   (*creates a new folder __snapshots__ in the respective test folder.learn more about [Snapshot Testing](https://facebook.github.io/jest/docs/snapshot-testing.html)*)
    
+- To run the Production build
+
+   `npm run build`
+   
+   (*creates the associated .js and .css files in the dist folder*)
     
 
