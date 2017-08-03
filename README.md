@@ -108,6 +108,12 @@ Eslint Config
     ],*/
 ```
 
+Bulma.io
+-------------
+- I have included a modern CSS framework based on Flexbox to demonstrate how you can use third party liblaries should you wish to use bootstrap/materal design in a similar way.
+- You can always emove it by `npm uninstall --save bulma` 
+ 
+
 Contributing
 --------------
 - Have a feature request you wish to see in the config file ? PR's welcomed
