@@ -68,4 +68,37 @@ Configuration
    
    (*creates the associated .js and .css files in the dist folder*)
     
+Webpack Config
+--------------
+
+- To add a SASS loader
+
+  `npm install sass-loader node-sass webpack --save-dev`
+   
+   Add the following to the test :/\.css$/, section of webpack.config.js
+   ```
+   { 
+  test: /\.sass$/, 
+  use: ExtractTextPlugin.extract({
+    fallback: "style-loader",
+    loader: "css-loader","sass-loader",
+  })
+}
+```
+
+- Production Plugins
+
+  I have added couple of plugins for production which could be customized according to your preferences.
+  Choose your preferred   plugins [here](https://webpack.github.io/docs/plugins.html)
+  
+  You can simply push the plugins in your dev/prod process through the following condition in the webpack config file.
+  
+  `if (process.env.NODE_ENV === 'production') {
+    config.plugins.push(new xyz plugin )
+    }`
+    
+ 
+ 
+   
+
 
